@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+header a{
+    text-decoration: none;
+    color: gray;
+}
+
+main{
+    margin: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+}
+
+main h2{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+main ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 20px
+}
+
+main a{
+    text-decoration: none;
+    color: gray;
+}
+
+#suga{
+    color: black;
+}
+
+#bts{
+    color: #000;
+}
+
+#rm{
+    color: #000;
+}
+
+#jin{
+    color: #000;
+}
+
+#jhope{
+    color: #000;
+}
+
+#jimin{
+    color: #000;
+}
+
+#v{
+    color: #000;
+}
+
+#jung{
+    color: #000;
+}
+
+.albuns{
+    display: flex;
+}
+
+.album{
+    margin: 5px;
+}
+
+.album img{
+    width: 360px;
+}
+
+.album p{
+    font-size: 20px;
+}
+
+footer{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer img{
+    width: 700px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
