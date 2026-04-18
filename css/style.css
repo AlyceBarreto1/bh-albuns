@@ -50,7 +50,7 @@ main a{
     color: black;
 }
 
-#bts{
+.bts{
     color: #000;
 }
 
@@ -58,9 +58,32 @@ main a{
     color: #000;
 }
 
+#jin{
+    color: #000;
+}
+
+#jhope{
+    color: #000;
+}
+
+#jimin{
+    color: #000;
+}
+
+#v{
+    color: #000;
+}
+
+#jung{
+    color: #000;
+}
+
 .albuns{
     display: flex;
-    gap: 10px;
+}
+
+.album{
+    margin: 5px;
 }
 
 .album img{
