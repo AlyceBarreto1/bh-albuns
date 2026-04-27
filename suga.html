@@ -26,7 +26,7 @@
                 <li><a href=".//index.html">BTS</a></li>
                 <li><a href=".//rm.html">RM</a></li>
                 <li><a href=".//jin.html">Jin</a></li>
-                <li><a id="suga" href=".//suga.html">SUGA</a></li>
+                <li><a id="suga" onclick="mudarTexto()">SUGA</a></li>
                 <li><a href=".//jhope.html">j-hope</a></li>
                 <li><a href=".//jimin.html">jimin</a></li>
                 <li><a href=".//v.html">V</a></li>
@@ -64,5 +64,10 @@
             </ul>
         </nav>
     </footer>
+    <script>
+        function mudarTexto() {
+            document.getElementById("suga").textContent = "Agust D";
+        }
+    </script>
 </body>
 </html>
